@@ -12,12 +12,10 @@ public class assignment2App {
 		
 		boolean isWeekday = dayNumber < 6;
 		System.out.println("Is it a weekday? " + isWeekday);
-		//make this so Sunday is 1 instead?
 		
 		double costOfMilk = 3.19;
 		double moneyInWallet = 20.00;
 		int thirstLevel = 10;
-		//I'd also like a drink
 		
 		boolean shouldBuyIceCream = isHotOutside && moneyInWallet > 5;
 		System.out.println("Should I buy ice cream? " + shouldBuyIceCream);
@@ -31,7 +29,6 @@ public class assignment2App {
 		
 		boolean willBuyMilk = isHotOutside && thirstLevel >= 3 && moneyInWallet >= 2*costOfMilk;
 		System.out.println("Will I buy milk today? " + willBuyMilk);
-		
 		
 		
 	}

@@ -18,7 +18,7 @@ public class Loops2 {
 			System.out.println(j);
 			j -= 3;
 		}
-		
+
 		// c
 		for (int c = 0; c < 100; c++) {
 			if (c % 2 == 1) {
@@ -26,13 +26,12 @@ public class Loops2 {
 			}
 
 		}
-		// Are we encouraged to use 'i' as much as possible? A: yes, and j is next
 
 		// d
 		for (int d = 0; d <= 100; d++) {
 			if (d % 3 == 0 && d % 5 == 0) { // added brackets here for consistency
 				System.out.println("HelloWorld");
-		    } else if (d % 3 == 0 && d % 5 != 0) { 
+			} else if (d % 3 == 0 && d % 5 != 0) {
 				System.out.println("Hello");
 			} else if (d % 3 != 0 && d % 5 == 0) {
 				System.out.println("World");
@@ -42,6 +41,6 @@ public class Loops2 {
 
 		}
 
-	} //push whole thing into repository 
+	} // push whole thing into repository
 
 }
